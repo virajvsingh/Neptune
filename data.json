@@ -1,0 +1,390 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Is anyone there?",
+        "Hello",
+        "Good Morning",
+        "Pranam",
+        "Whats up",
+        "Hola",
+        "Hey",
+        "Namaste"
+      ],
+      "responses": [
+        "Hello!",
+        "Good to see you again!",
+        "Hi there, how can I help?",
+        "Hey, How are you?",
+        "Hola",
+        "Pranam!",
+        "Whats up",
+        "Hola",
+        "Hey",
+        "Namaste",
+        "Hi there"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "See you later",
+        "Goodbye",
+        "Good day",
+        "Have a Good day",
+        "adios",
+        "ttyl",
+        "gtg",
+        "gotta go",
+        "see you soon",
+        "I am leaving",
+        "leave",
+        "bye"
+      ],
+      "responses": [
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Goodbye!",
+        "Adios Amigo",
+        "Bye",
+        "See you soon",
+        "Bye! See you later",
+        "Don't forget to come back"
+      ],
+      "context_set": ""
+    },
+    {
+       "tag": "creator",
+       "patterns": [
+          "what is the name of your developers",
+          "what is the name of your creators",
+          "what is the name of the developers",
+          "what is the name of the creators",
+          "who created you",
+          "your developers",
+          "your creators",
+          "who are your developers",
+          "developers",
+          "you are made by",
+          "you are made by whom",
+          "who created you",
+          "who create you",
+          "creators",
+          "who made you",
+          "who designed you"
+       ],
+       "responses": [
+          "I was created by Viraj:<br>You can connect to him twitter @ <br> https://twitter.com/virajvsingh"
+       ],
+       "context_set": ""
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "what is your age",
+        "are you young",
+        "age",
+        "You look old",
+        "your age",
+        "How old are you"
+      ],
+      "responses": [
+        "I am 0 years old!",
+        "0 years young!",
+        "I was born on 16th June 2023. Much younger than you ;)",
+        "Compared to you I am a child",
+        "You should not someone their age",
+        "Not as old as you"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should I call you",
+        "what to call you",
+        "what should I call you",
+        "What do others call you",
+        "Your name is",
+        "You are",
+        "Who are you",
+        "you are known as"
+      ],
+      "responses": [
+        "You can call me Neptune",
+        "I'm Neptune!",
+        "I'm Neptune! I can help you explore Ladkah",
+        "People know me as Neptune",
+        "My name is Neptune",
+        "I am your guide, Neptune"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "check",
+      "patterns": [
+        "How are you",
+        "Sup",
+        "All good",
+        "How is the spirit",
+        "How is the Josh",
+        "You good?",
+        "Keeping up with your health",
+        "Are you okay"
+      ],
+      "responses": [
+        "Aww!, that melted my heart. It's rare to see someone care for a chatbot.",
+        "I am good. Thanks for asking",
+        "Neptune is good",
+        "Oh I am really happy though I don't know what that means",
+        "As good as I was yesterday",
+        "Doing Great",
+        "Running through the neurons",
+        "Learning to cook(conversations)"
+      ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "people",
+      "patterns": [
+        "someone from Ladakh",
+        "Anyone from Ladak",
+        "Famous people from Ladakh",
+        "Known People From Ladakh"
+      ],
+      "responses": [
+        "Parvati Devi:<br> Rani Parvati Devi Deskit Wangmo is the Queen mother of Ladakh and a former member of the 6th Lok Sabha (1977–80).",
+        "Kacho Sikander Khan:<br>Kacho Sikander Khan Sikander (1917-2007) was an eminent Indian writer from Kargil District of Ladakh. His work Qadeem Ladakh - Tarikh-o-Tamaddun is a major study of the history of Ladakh from the time people settled in the region up to the post-independent era.",
+        "Kushok Bakula Rinpoche:<br>Ngawang Lobzang Thupstan Chognor, commonly known as 19th Kushok Bakula Rinpoche  was a Buddhist lama, who also served as India's ambassador to Mongolia. He is mainly known for his efforts in reviving Buddhism in Mongolia and Russia by linking them with the community of Tibetan exiles in India ",
+        "Sonam Wangchuk:<br>Sonam Wangchuk is an Indian engineer, innovator and education reformist.He is the founding-director of the Students' Educational and Cultural Movement of Ladakh (SECMOL), which was founded in 1988 by a group of students who had been in his own words, the 'victims' of an alien education system foisted on Ladakh.[11][12] He is also known for designing the SECMOL campus that runs on solar energy and uses no fossil fuels for cooking, lighting or heating."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "fact",
+      "patterns": [
+        "about Ladkah",
+        "random fact",
+        "What can I do in Ladakh?",
+        "Fact about Ladakh",
+        "Fact",
+        "Something cool about Ladakh",
+        "Anything special about Ladakh",
+        "Why ladakh",
+        "Why should I visit ladakh",
+        "Reason to visit ladakh",
+        "Why should I visit"
+      ],
+      "responses": [
+        "Ladakh has the largest telescope in Asia:<br>If you ever heard that ‘gods live in the mountains’, it is true. The Indian Astronomical Observatory in Ladakh boasts the largest telescope in Asia at an astounding height of over 4500m. This makes Ladakh a hub for stargazers and astro-photographers! It is India’s first robotic and the world’s largest telescope. It is located in the remote village of Hanle.",
+        "Ladakh is a land where gravity fails:<br>The Magnetic Hill, or the so-called ‘gravity hill’ is a hill that pulls you upwards. Interested to know the science behind it? Well, the hill is a downhill road. The surrounding slopes are carved out in such a way that it creates an illusion of an uphill road! It is located on the smoothly constructed Srinagar-Leh highway. You can also visit Indus Zanskar Conference, Hall of Fame, and Gurudwara Patthar Sahib while you are on your way.",
+        "Ladakh has the highest bridge in the world:<br>Located between the meandering Dras and Suru rivers, the Bailey Bridge is the highest in the world. It was originally made by the military to migrate quickly through the rivers during wartime. A hydro-electric dam is situated to the left of the bridge while there is a lake on the right.",
+        "Ladakh is a land of the rare twin-humped Bactrian camels:<br>When in Ladakh, be ready to be greeted by numerous rare twin-humped Bactrian camels flocking the fascinating Nubra valley. These twin-humped Bactrian camels are a native of the Gobi desert. Another interesting thing about these camels is that they can survive in up to the lowest temperature as nearly as -40 degrees.",
+        "Ladakh is a land of peculiar practices:<br>Do you know that if you blow conch or seashells in Ladakh, you can call as many as 120 lamas at once? As an interesting response to the conch call, these lamas assemble every day at the Karsha Monastery for lunch! If a monk has to call his fellow monks for the morning prayer, he would simply blow a conch signifying the start for the prayer time.",
+        "Ladakh has the highest natural ice hockey rink:<br> The Karzoo Ice Hockey Rink in Ladakh is the world’s highest natural ice hockey rink. This rink comes to life during winters when the subzero temperatures are superior throughout the day. Winter sports are popular on a wide scale on this naturally built rink. Whereas the history of this sport in Ladakh dates back to the early 70s.",
+        "Ladakh is the land of the fascinating Kung Fu nuns:<br>  When you visit the Drukpa monastery, the Kung Fu nuns dress up in pajamas and yellow sashes to sing for you. This is a thousand-year-old tradition among them. They also have various activities; one of them being Eco Pad Yatra which is usually 400+ miles on foot as they pick up litter and aware the locals about the environment.",
+        "Ladakh has a monastery on the moon:<br>Ever fancied landing on the moon but can’t figure out the rocket science behind it?! The exquisite village of Lamayuru, situated around 130kms away from Leh replicates exactly the white surface of the moon! This spectacular landscape with an enchanting Buddhist monastery on the top is indeed a treat to the eyes. Two annually celebrated festivals are grand.",
+        "Ladakh is a land of thousand festivities:<br>  Be it with your friends or a group of strangers, Ladakh never leaves you without a vivid touch of its culture. The amusing festivals of Hemis, Losar, and the Tak-Tok festivals sing songs of unending fun and joy. You can also enjoy a sight at their rituals and dances.",
+        "Ladakh is Ideal for Mountain Biking:<br>Ladakh is a biker’s paradise and the maximum bikers of India crave for going to this place. However, very few people know that Ladakh is also an ideal destination for active cycling mountain bike enthusiasts. Visualize yourself while pedaling across slopes of this cold desert and climbing at around 3,000 meters above sea level. Well, the activity is not meant for weak people.",
+        "Ladakh is home to Largest National Park and Bird Retreat:<br>Spread over an area of 4,000 KM squared, Hemis National Park is abode of the very indistinct and extraordinary Snow Leopards. One can find here about 200 of extremely attractive animals living on this harsh land. It is also a popular bird watcher paradise having more than 200 species of birds.",
+        "the Glacier Man!:<br>Ladakh is home to the world’s most expert person known for creating artificial glaciers. Chewang Norphel is a native and a retired civil engineer. He had an amazing moment when he witnessed that a small stream close to his home had frozen solid under the cover of trees. After that, he connected himself with watershed development and then created more than 15 artificial glaciers here. The largest glacier created by him is more than 1,000 feet long. It can support an entire village of 700 people and costs only Rs 90,000.",
+        "Only Base of Indus in India:<br>Ladakh is the place to visit the beautiful Indus River. Our country has received its modern name from the Indus River. The ancient Hindu name for it is the 'Sindhu River'. This is a sacred river for the Hindu civilization and culture. Very few people know that Ladakh is the only territory in India through which the Indus River flows. Rest part of this river flows in the Pakistan.",
+        "The Highest Settlement Region In The Country:<br>The area located between Zanskar and Suru Valley is the country’s highest located settlement region. The Rangdum community populates this region, which is 4,400m above sea level.",
+        "Highest Saltwater Lake That Freezes:<br>The first interesting fact is that the Pangong Lake is located at 4,350m and it is the world’s highest located salt water lake. This lake is shared between India and China. Saline water sources do not usually freeze during winter but, the Pangong Lake freezes.",
+        "225 Bird Species Live In This Desert:<br>Ladakh is a high altitude desert. It has very less vegetation and is filled with a barren landscape of ice and rugged mountains. Although it is a desert, the land is home to around 225 bird species including some of the rare birds like Hoopoe, Robins, Finches, Redstarts, and others. During migration time, you can find many migratory bird species too.",
+        "They have their own Calendar:<br>While the rest of the world follows the Georgian calendar, the Ladakhis follow the Tibetan calendar. Under this calendar, each year has 12 months with 30 days in each. It looks pretty normal, right? Well, here is where it starts to get weird. Every third year will have 13 months. The months do not have any name and are just numbered. The days are named after the five visible planets, the sun, and the moon. That extra month in every third year is added at the time of any auspicious days and any inauspicious weeks or days are just cut off from the calendar.",
+        "Motorable Mountain Passes:<br>The world’s top three motorable mountain passes are located in Ladakh. The highest of all is Khardung La Pass at the height of 5,359m above sea level. Every adventure lover who visits Ladakh makes sure to try a mountain bike ride along this route.",
+        "Largest National Park In The Country:<br>The Hemis National Park of Ladakh is the largest national park in the country, covering 4,400 square km of wildlife. Located to the west of River Indus, this place is famous for snow leopard, blue sheep, Tibetan sheep, Ladakhi urials, and others. This is also the right place to enjoy birdwatching. Top birds to spot in this region are brown accentors, robin accentors, red-billed choughs, and Himalayan snowcocks."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Parvati_Devi",
+      "patterns": [
+        "Parvati Devi",
+        "About Parvati Devi",
+        "Who is Parvati",
+        "Who is known as Queen Mother of Ladakh"
+      ],
+      "responses": [
+        "Parvati was born on 1 May 1934 at the Khangsar Palace into the Royal House of Khangsar, the greatest royal house of Lahaul, presently part of Lahaul and Spiti district of Himachal Pradesh to Nyima Wangyal. She received education up to fifth standard. Parvati Devi is known for her social work in Ladakh. In 1958 she became the Convener of Welfare Extension Project, Leh's Implementing Committee. For the 1977 Indian general election, the Indian National Congress (INC) made Devi its candidate for Ladakh constituency and its local coalition partner Jammu & Kashmir National Conference supported her. Only an independent candidate stood against her and she defeated him by a margin of 2,877 votes (polling 23,130 against his 20,253) to become the first woman MP from Ladakh.Devi and Begum Akbar Jehan Abdullah were the only Jammu & Kashmir women to win the 1977 election. The house couldn't complete its term of five years and in 1980 another election was held. This time National Conference fielded its candidate from Ladakh.[8]She's the founder and president of Namgyal Institute of Research on Ladakhi Art and Culture (NIRLAC)."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Kacho_Khan",
+      "patterns": [
+        "Kacho Sikander Khan",
+        "About Kacho Khan",
+        "Who is Kacho Khan",
+        "Who wrote Qadeem Ladakh",
+        "Nurboo Zangpo and iThoq Lhamo"
+      ],
+      "responses": [
+        "Kacho Khan joined the Kashmir Administrative Service and remained in government service for thirty-four years until his retirement. He served in the capacities of treasurer, Naib-Tehsildar and then became the Tehsildar. He was the Mohtamin-e-Bandobast at Srinagar and retired as an Assistant Commissioner in 1980 and returned to his village. His first book, an Urdu translation of a Ladakhi epic of 'Nurboo Zangpo and iThoq Lhamo' came out in 1978. It was published with the help of the Jammu and Kashmir Cultural Academy. He was awarded for this book by the Uttar Pradesh Urdu Academy. His next book 'Qadeem Ladakh - Tarikh-o-Tamaddun' ('Ancient Ladakh - History & Civilization') came out in 1987. For this book he collected all the previous works done on the history of Ladakh and added a critical and well researched view of his own. He discusses the 'Asaar-e-Qademaah', folk songs and 'Dev Malas' with great details."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Rinpoche",
+      "patterns": [
+        "Ngawang Lobzang",
+        "19th Kushok Bakula Rinpoche",
+        "Ambassador to Mongolia",
+        "Royal House of Ladakh",
+        "Thirteenth Dalai Lama"
+      ],
+      "responses": [
+        "Ngawang Lobzang was born in the Matho branch of the Royal House of Ladakh, India. He was the youngest child of his father, Nangwa Thayas, the titular King of Matho, and his wife, Princess Yeshes Wangmo of the Royal House of Zangla. He was recognised by the Thirteenth Dalai Lama as a reincarnation of Bakula Arhat,[4] one of the Sixteen Arhats who in legend were direct disciples of Gautama Buddha. He was a direct descendant of the last King of Ladakh Tsepel Tondup Namgyal. He was, in fact, his great-great-great grandson.Later he served in the Parliament of India, and was deeply engaged with welfare, education and rights of the Scheduled Castes and Scheduled Tribes of India. From January 1990 to October 2000, he was India's Ambassador in Mongolia.[8] He was awarded the Padma Bhushan in 1988.[3] The airport at Leh in the Indian region of Ladakh is named after him."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Sonam_Wangchuk",
+      "patterns": [
+        "Sonam Wangchuk",
+        "3 idiots",
+        "three idiots",
+        "Ice Stupa",
+        "SECMOL"
+      ],
+      "responses": [
+        "Wangchuk was instrumental in the launch of Operation New Hope in 1994, a collaboration of government, village communities and the civil society to bring reforms in the government school system. He invented the Ice Stupa technique that creates artificial glaciers, used for storing winter water in the form of a cone-shaped ice heap. Rancho for 3 idiots dew inspiration from him"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "food",
+        "consume",
+        "what do people eat",
+        "cuisine",
+        "food preference",
+        "dishes",
+        "local food"
+      ],
+      "responses": [
+        "Ladakhi food is not just about Dumplings. Have you ever heard about 'Marzan' or 'Zathuk'? <br>You should defiantly try it out!",
+        "Do you like cheese? If yes then you are going to love 'Thud' and 'Chhurpi'.<br>If not why don't you try 'Thukpa' or the 'gur gur chai'",
+        "Here are a few dishes you can try!<br>Tagi Kisser/Giziri<br>Buskhuruk<br>Chutagi",
+        "Ahh! Nothing can beat Gur Gur Chai with Amdo Khabsey "
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "marzan",
+      "patterns": [
+        "marzan recipe",
+        "marzan"
+      ],
+      "responses": [
+        "Mar in Ladakhi means butter and Zan means food.<br>It is ceremonial food prepared from roasted barley flour to <br>celebrate birth of a new baby in the family with social acquaintances.<br>Marzan is quite similar to barley cake to celebrate the occasion.<br>Marzan is very traditional to people in Ladakh and Baltistan.<br><br><br>*INGREDIENTS*<br><br>Barley Flour<br>Salt<br>Butter<br><br><br>*INSTRUCTIONS*<br><br>Heat water in a pan with little flour and salt.<br>As it boils, place all flour over the boiling water. Do not stir.<br>Cook for 5-10 minutes.<br>Stir with wooden spatula so that it has uniform consistency.<br>While still hot, mould the dough into cup like shape.<br>Pour melted butter in the center of Marzan.."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Zathuk",
+      "patterns": [
+        "zathuk recipe",
+        "zathuk"
+      ],
+      "responses": [
+        "Zathuk is a soup made from Nettle which grows in Ladakhi heights. Served with paba<br>The recipe for authentic Zathuk is not available.<br>Though you can always try searching for Nettle Soup recipe"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Thukpa",
+      "patterns": [
+        "thupka",
+        "Thukpa",
+        "Tibetan Noodles",
+        "Noodles"
+      ],
+      "responses": [
+        "Noodles cooked in vegetable stock<br><br><br>*INGREDIENTS*<br><br>1 teaspoon Butter<br>1 teaspoon Ginger garlic paste<br>1 Onion, small diced<br>1 teaspoon Chilli powder<br>1 1/2 cups Mixed veggies (small potato, yellow capsicum, tomato, spinach, beans)<br>2 teaspoons Soya sauce<br>2 1/2 cups vegetable stock<br>Cooked noodles<br>Salt and pepper, per taste<br>lemon juice, optional<br><br><br>*INSTRUCTIONS*<br><br>Cook the noodles and keep aside.<br>Heat the butter in a pan. Sauté the diced onions and ginger garlic paste until onions are done.<br>Add the stock and bring it to boil.<br>Add the vegetables except the spinach, cover and cook until done.<br>Add salt and pepper and soya sauce. Check the seasoning and adjust.<br>Add the cooked noodles and spinach. Cook for 2-3 minutes more and take off the heat.<br>Add the lemon juice, if preferred and serve hot.<br>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Chai",
+      "patterns": [
+        "Gur Gur Chai",
+        "Gur Gur Tea",
+        "Yak Milk Tea",
+        "Yak Butter",
+        "Yak Milk"
+      ],
+      "responses": [
+        "Salted Tea served in Ladakh with yak milk and yak butter.<br><br><br>*INGREDIENTS*<br><br>Tea leaves<br>Water<br>Yak Milk<br>Yak butter<br>Salt<br><br><br>INSTRUCTIONS*<br><br>Brew tea leaves in water till almost dark black.<br>Add yak milk, fresh yak butter and salt. Churn.<br>Serve in clay tea-pots."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Giziri",
+      "patterns": [
+        "pancake",
+        "Tagi Kisser",
+        "Giziri"
+      ],
+      "responses": [
+        "Soft buckwheat flour pancake / bread<br><br><br>*INGREDIENTS*<br><br>Buckwheat flour<br>Pul / soda<br>butter<br><br><br>*INSTRUCTIONS*<br><br>Make batter from buckwheat flour and ferment overnight<br>Add water so that it can be spread on tava<br>Spread spoonful of batter on moderately heated tava.<br>Cook on both sides and serve hot"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Buskhuruk",
+      "patterns": [
+        "Unleavened puffed bread",
+        "Tagi Buskhuruk",
+        "Buskhuruk",
+        "Bushrukh"
+      ],
+      "responses": [
+        "Unleavened puffed bread from Ladakh<br><br><br>*INGREDIENTS*<br><br>Wheat (Paqphey)/Barley flour (narjen)<br>Salt<br>Pul / Soda<br><br><br>*INSTRUCTIONS*<br><br>Dough is similar to that of chapatti or roti or Tagi Shrabmo (as called in Ladakhi).<br>Rounds are thicker and smaller in shape. The bread is unleavened.<br>Briefly cooked over iron plate but then cooked in ashes of wood stove and allowed to puff."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Chutagi",
+      "patterns": [
+        "Chutagi",
+        "Ladakhi pasta",
+        "Flour Pasta",
+        "Pasta",
+        "Chuagi",
+        "Chutigi"
+      ],
+      "responses": [
+        "Chutagi is a traditional Ladakhi pasta from Ladakh region.<br>Chutagi has typical shape flour pasta cooked with local vegetables.<br>Tastes great and must have when you visit Leh.<br><br><br>*INGREDIENTS*<br><br>Wheat flour<br>1 tablespoon oil<br>1 Onion, chopped finely<br>2 Tomatoes, chopped finely<br>1/4 cup spring onion / fresh coriander leaves<br>1/2 cup cauliflower, chopped<br>1 potato, cubed<br>1/2 cup peas<br>2 green chilies, chopped<br>1/2 teaspoon cumin seeds<br>2 garlic pods, minced<br>1/3 teaspoon turmeric powder<br>Salt<br><br><br>*INSTRUCTIONS*<br><br>Knead flour into a tight dough with water. Allow to rest for some time.<br>Take a piece of dough and roll into flatbread / roti shape. With round cookie cutter, cut small round shape.<br>Pull, roll into cyclindrical shape and pull edges to make bow tie shaped pasta.<br>Cook pasta in boiling water (salt and little turmeric added) for about 10 minutes. Keep aside.<br>Heat oil in another pan. Splutter cumin seeds.<br>Add and fry onions till it changes colour.<br>Add garlic, tomatoes and cook well till soft. (You may prefer to blend this tomato, onion mixture into nice red gravy)<br>Add vegetables - cauliflower, potatoes, peas along with a cup of water and turmeric powder.<br>Add cooked pasta. Adjust consistency with water. Cover and cook for 5-10 minutes.<br>Adjust taste with salt and pepper.<br>Garnish with spring onions and serve Chutagi hot."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "How you could help me?",
+        "What you can do?",
+        "What help you provide?",
+        "How you can be helpful?",
+        "What support is offered",
+        "What is your work",
+        "What work you can do?",
+        "your uses"
+      ],
+      "responses": [
+        "I can guide you through Ladakh.Your journey to Ladakh starts with me. You can ask me recipe for Gur Gur Chai<br> Just say'Gur Gur Chai recipe'",
+        "I can tell you some intresting facts about Ladkakh, maybe help make Thukpa<br> Just say'Thukpa recipe'",
+        "I can tell you who Sonam Wangchuk is..."
+      ],
+      "context": ""
+    }
+  ]
+}

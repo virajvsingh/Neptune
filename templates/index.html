@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chatbot</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+            <!---| Section 1 Code Starts Here |--->
+            <div class="section1">
+
+                <!---| Navigation Bar Code Starts Here |--->
+
+                <div class="navbar" id="nav">
+                    <img src="https://i.ibb.co/DLD6Hp6/logo.png">
+                    <nav>
+                        <ul>
+                            <li><a href="#nav">Home</a></li>
+                            <li><a href="#food">Food</a></li>
+                            <li><a href="#fact">Facts</a></li>
+                            <li class="lastnavpad"><a  href="#people">People</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!---| Navigation Bar Code Ends Here |--->
+
+            </div>
+            <!---| Section 1 Code Ends Here |--->
+
+            <div class="section2">
+
+                <div class="col-1">
+                <h6>Want to have a gimplse of Heaven on</h6>
+                <h1>Earth?</h1>
+                <h3>Visit Ladakh...</h3>
+                </div>
+
+            </div>
+
+            <div class="row" id="food">
+                <div class="column">
+                    <h2>Food?</h2>
+                    <h6>Well you can't miss that...</h6>
+                    <p>Try asking Neptune about Ladakhi food.<br>
+                    Right now it can help you with recepies of:
+                        <br>Marzan
+                        <br>Zathuk
+                        <br>Thupka
+                        <br>Gur Gur Chai
+                        <br>Giziri
+                        <br>Buskhuruk
+                        <br>Chutagi
+                        <br>
+                    </p>
+                    <h3 class="command">Just say 'Chai Recipe'</h3>
+                </div>
+
+                <div class="column">
+                    <img class="food-img" src="https://w0.peakpx.com/wallpaper/195/787/HD-wallpaper-brown-chopsticks-on-white-bowl.jpg">
+                </div>
+            </div>
+
+
+
+            <div class="row" id="fact">
+                <div class="column">
+                <img class="bike-img" src="https://e1.pxfuel.com/desktop-wallpaper/668/19/desktop-wallpaper-leh-ladakh-ladakh-bike.jpg">
+                </div>
+                <div class="column">
+                    <h2>Want to learn about Ladakh?</h2>
+                    <h6>Well do you know?</h6>
+                    <p>The world’s top three motorable mountain passes are located in Ladakh. The highest of all is Khardung La Pass at the height of 5,359m above sea level. Every adventure lover who visits Ladakh makes sure to try a mountain bike ride along this route.<br>
+                    </p>
+                    <h3 class="command">Just say 'Some Facts about Ladakh'</h3>
+                </div>
+
+            </div>
+
+
+            <div class="row" id="people">
+                <div class="column">
+                    <h2>Want to know about Ladakhis?</h2>
+                    <h6>They are super sweet...</h6>
+                    <p>
+                        The people of Ladakh are known for their resilience, warmth, and hospitality. They have a rich cultural heritage, which is reflected in their traditional clothing, music, dance, and art forms.Ladakhis are of Tibetic origin.
+                    </p>
+                    <h3 class="command">Just say 'Tell me about people from Ladakh'</h3>
+                </div>
+                <div class="column"><img class="people-img" src="https://www.oyorooms.com/blog/wp-content/uploads/2018/04/fe-37.jpg"></div>
+            </div>
+            <div class="ending">
+                <h1>See you in Ladakh Soon...</h1>
+            </div>
+
+  <!-- partial:index.partial.html -->
+  <button class="open-chat"onclick="openForm()">Chat</button>
+  <section class="chat-pop" id="myForm">
+    <section class="msger">
+
+
+      <main class="msger-chat">
+        <div class="msg left-msg">
+          <div class="msg-img" style="background-image: url(https://image.flaticon.com/icons/svg/327/327779.svg)"></div>
+          <div class="msg-bubble">
+              <div class="warning"><p><i>Neptune is still in beta phase and may provide with undesired results.Please rephrase your questions or check for spelling mistakes.</i></p></div>
+            <div class="msg-info">
+              <div class="msg-info-name">Neptune</div>
+            </div>
+
+
+            <div class="msg-text">
+              Hi, I am Neptune! Go ahead and send me a message. 😄
+            </div>
+          </div>
+        </div>
+
+      </main>
+
+      <form class="msger-inputarea">
+        <input type="text" class="msger-input" id="textInput" placeholder="Enter your message...">
+        <button type="submit" class="msger-send-btn">Send</button>
+        <button type="button" class="btn-cancel" onclick="closeForm()">Close</button>
+      </form>
+    </section>
+  </section>
+  <!-- partial -->
+  <script src="https://kit.fontawesome.com/d8bd919f93.js" crossorigin="anonymous"></script>
+  <script>
+        function openForm() {
+      document.getElementById("myForm").style.display = "block";
+    }
+
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+  </script>
+  <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
+  <script>
+
+    const msgerForm = get(".msger-inputarea");
+    const msgerInput = get(".msger-input");
+    const msgerChat = get(".msger-chat");
+
+
+    // Icons made by Freepik from www.flaticon.com
+    const BOT_IMG = "https://d2cbg94ubxgsnp.cloudfront.net/Pictures/2000xAny/9/9/2/512992_shutterstock_715962319converted_749269.png";
+    const PERSON_IMG = "https://static.vecteezy.com/system/resources/thumbnails/009/380/423/small/man-face-clipart-design-illustration-free-png.png";
+    const BOT_NAME = "Neptune";
+    const PERSON_NAME = "You";
+
+    msgerForm.addEventListener("submit", event => {
+      event.preventDefault();
+
+      const msgText = msgerInput.value;
+      if (!msgText) return;
+
+      appendMessage(PERSON_NAME, PERSON_IMG, "right", msgText);
+      msgerInput.value = "";
+      botResponse(msgText);
+    });
+
+    function appendMessage(name, img, side, text) {
+      //   Simple solution for small apps
+      const msgHTML = `
+<div class="msg ${side}-msg">
+  <div class="msg-img" style="background-image: url(${img})"></div>
+
+  <div class="msg-bubble">
+    <div class="msg-info">
+      <div class="msg-info-name">${name}</div>
+      <div class="msg-info-time">${formatDate(new Date())}</div>
+    </div>
+
+    <div class="msg-text">${text}</div>
+  </div>
+</div>
+`;
+
+      msgerChat.insertAdjacentHTML("beforeend", msgHTML);
+      msgerChat.scrollTop += 500;
+    }
+
+    function botResponse(rawText) {
+
+      // Bot Response
+      $.get("/get", { msg: rawText }).done(function (data) {
+        console.log(rawText);
+        console.log(data);
+        const msgText = data;
+        appendMessage(BOT_NAME, BOT_IMG, "left", msgText);
+
+      });
+
+    }
+
+
+    // Utils
+    function get(selector, root = document) {
+      return root.querySelector(selector);
+    }
+
+    function formatDate(date) {
+      const h = "0" + date.getHours();
+      const m = "0" + date.getMinutes();
+
+      return `${h.slice(-2)}:${m.slice(-2)}`;
+    }
+
+
+  </script>
+
+    </body>
+</html>
