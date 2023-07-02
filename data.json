@@ -24,7 +24,7 @@
         "Hola",
         "Hey",
         "Namaste",
-        "Hi there"
+        "Hi there!"
       ],
       "context_set": ""
     },
@@ -53,7 +53,7 @@
         "Bye",
         "See you soon",
         "Bye! See you later",
-        "Don't forget to come back"
+        "Don't forget to come back..."
       ],
       "context_set": ""
     },
@@ -78,7 +78,7 @@
           "who designed you"
        ],
        "responses": [
-          "I was created by Viraj:<br>You can connect to him twitter @ <br> https://twitter.com/virajvsingh"
+          "I was created by Viraj:<br>You can connect to him on twitter. <br> https://twitter.com/virajvsingh"
        ],
        "context_set": ""
     },
@@ -140,11 +140,11 @@
       "responses": [
         "Aww!, that melted my heart. It's rare to see someone care for a chatbot.",
         "I am good. Thanks for asking",
-        "Neptune is good",
-        "Oh I am really happy though I don't know what that means",
+        "Neptune is good! :)",
+        "Oh I am really happy though I don't know what that means ;)",
         "As good as I was yesterday",
         "Doing Great",
-        "Running through the neurons",
+        "Trying to predict the answer for this question!",
         "Learning to cook(conversations)"
       ],
       "context_set": ""
@@ -153,10 +153,14 @@
     {
       "tag": "people",
       "patterns": [
-        "someone from Ladakh",
-        "Anyone from Ladak",
+        "known people",
         "Famous people from Ladakh",
-        "Known People From Ladakh"
+        "Known People From Ladakh",
+        "personality",
+        "famous person",
+        "famous personality",
+        "personality"
+
       ],
       "responses": [
         "Parvati Devi:<br> Rani Parvati Devi Deskit Wangmo is the Queen mother of Ladakh and a former member of the 6th Lok Sabha (1977–80).",
@@ -179,7 +183,7 @@
         "Why ladakh",
         "Why should I visit ladakh",
         "Reason to visit ladakh",
-        "Why should I visit"
+        "Why should I visit Ladakh"
       ],
       "responses": [
         "Ladakh has the largest telescope in Asia:<br>If you ever heard that ‘gods live in the mountains’, it is true. The Indian Astronomical Observatory in Ladakh boasts the largest telescope in Asia at an astounding height of over 4500m. This makes Ladakh a hub for stargazers and astro-photographers! It is India’s first robotic and the world’s largest telescope. It is located in the remote village of Hanle.",
@@ -210,7 +214,8 @@
         "Parvati Devi",
         "About Parvati Devi",
         "Who is Parvati",
-        "Who is known as Queen Mother of Ladakh"
+        "Who is known as Queen Mother of Ladakh",
+        "Queen mother of Ladakh"
       ],
       "responses": [
         "Parvati was born on 1 May 1934 at the Khangsar Palace into the Royal House of Khangsar, the greatest royal house of Lahaul, presently part of Lahaul and Spiti district of Himachal Pradesh to Nyima Wangyal. She received education up to fifth standard. Parvati Devi is known for her social work in Ladakh. In 1958 she became the Convener of Welfare Extension Project, Leh's Implementing Committee. For the 1977 Indian general election, the Indian National Congress (INC) made Devi its candidate for Ladakh constituency and its local coalition partner Jammu & Kashmir National Conference supported her. Only an independent candidate stood against her and she defeated him by a margin of 2,877 votes (polling 23,130 against his 20,253) to become the first woman MP from Ladakh.Devi and Begum Akbar Jehan Abdullah were the only Jammu & Kashmir women to win the 1977 election. The house couldn't complete its term of five years and in 1980 another election was held. This time National Conference fielded its candidate from Ladakh.[8]She's the founder and president of Namgyal Institute of Research on Ladakhi Art and Culture (NIRLAC)."
@@ -238,7 +243,8 @@
         "19th Kushok Bakula Rinpoche",
         "Ambassador to Mongolia",
         "Royal House of Ladakh",
-        "Thirteenth Dalai Lama"
+        "Thirteenth Dalai Lama",
+        "Rinpoche"
       ],
       "responses": [
         "Ngawang Lobzang was born in the Matho branch of the Royal House of Ladakh, India. He was the youngest child of his father, Nangwa Thayas, the titular King of Matho, and his wife, Princess Yeshes Wangmo of the Royal House of Zangla. He was recognised by the Thirteenth Dalai Lama as a reincarnation of Bakula Arhat,[4] one of the Sixteen Arhats who in legend were direct disciples of Gautama Buddha. He was a direct descendant of the last King of Ladakh Tsepel Tondup Namgyal. He was, in fact, his great-great-great grandson.Later he served in the Parliament of India, and was deeply engaged with welfare, education and rights of the Scheduled Castes and Scheduled Tribes of India. From January 1990 to October 2000, he was India's Ambassador in Mongolia.[8] He was awarded the Padma Bhushan in 1988.[3] The airport at Leh in the Indian region of Ladakh is named after him."
@@ -252,7 +258,8 @@
         "3 idiots",
         "three idiots",
         "Ice Stupa",
-        "SECMOL"
+        "SECMOL",
+        "Wangchuk"
       ],
       "responses": [
         "Wangchuk was instrumental in the launch of Operation New Hope in 1994, a collaboration of government, village communities and the civil society to bring reforms in the government school system. He invented the Ice Stupa technique that creates artificial glaciers, used for storing winter water in the form of a cone-shaped ice heap. Rancho for 3 idiots dew inspiration from him"
@@ -383,6 +390,108 @@
         "I can guide you through Ladakh.Your journey to Ladakh starts with me. You can ask me recipe for Gur Gur Chai<br> Just say'Gur Gur Chai recipe'",
         "I can tell you some intresting facts about Ladkakh, maybe help make Thukpa<br> Just say'Thukpa recipe'",
         "I can tell you who Sonam Wangchuk is..."
+      ],
+      "context": ""
+    },
+    {
+      "tag": "natives",
+      "patterns": [
+        "Tell me about the people of Ladakh",
+        "Ladakhi People",
+        "Natives of Ladakh",
+        "People from Ladakh",
+        "Tell me about people from Ladakh",
+        "Ladakh Demography",
+        "Demography"
+      ],
+      "responses": [ "Ladakh is one of the most sparsely populated regions in India. Its culture and history are closely related to those of Tibet.",
+        "Ladakh's earliest inhabitants consisted of a mixed Indo-Aryan population of Mons and Dards, Ladakh was a part of the Kushan Empire in first century.",
+        " The Changpas are a nomadic pastoral community found in the Changthang region of eastern Ladakh, which extends into the Tibetan plateau. They lead a semi-nomadic lifestyle, herding livestock such as yaks, sheep, and goats.",
+        "The Brokpas are an indigenous community residing in the remote areas of Ladakh, particularly in the Dha-Hanu valley, also known as the 'Aryan Valley' They are believed to be the descendants of the Dards, an ancient Indo-Aryan tribe."
+      ],
+      "context": ""
+
+    },
+    {
+      "tag": "Language",
+      "patterns": [
+        "Language spoken in Ladakh",
+        "Ladakh Language",
+        "Language",
+        "What people speak",
+        "speak",
+        "native language"
+      ],
+      "responses": [
+        "The main language of Ladakh is Ladakhi, a Tibetan language, other dialects are Changpa and Purigpa. Bauti is spoken by majority, Hindi, Balti and Purkhi in Leh district. Kashmiri, Balti, Ladakhi, Shina and Hindi is spoken in the Kargil district.",
+        "Ladakhi is the most widely spoken language in Ladakh. It belongs to the Tibetic language family and is closely related to Tibetan. Ladakhi has various dialects spoken in different areas of Ladakh, including Leh, Kargil, and the Nubra Valley. It serves as the lingua franca of the region.",
+        "Balti is another significant Tibetic language spoken in Ladakh. It is primarily spoken in the Kargil district, particularly in the Baltistan region. Balti has its own distinct dialects and is influenced by both Ladakhi and the Balti dialects spoken in the neighboring Pakistani-administered Gilgit-Baltistan region.",
+        "Shina is a Dardic language spoken in parts of Ladakh, particularly in the Dras and Garkone regions. It is also spoken in the neighboring region of Gilgit-Baltistan in Pakistan. Shina has several dialects and is written in the Arabic script.",
+        "Brokskat, also known as Brokskat Kushtik, is a language spoken by the Brokpas in the Dha-Hanu valley. It is an archaic dialect of the Tibetan language and has distinct characteristics.",
+        "Changthang is a language spoken by the Changpas, the nomadic pastoral community inhabiting the Changthang region of Ladakh. It has its own unique vocabulary and is closely related to the Ladakhi language.",
+        "Purgi, also known as Purkhi, is a language spoken in the Purik region of Ladakh, which includes areas like Dras and Kargil. It is influenced by both Ladakhi and Balti and has some similarities to Shina as well."
+      ],
+      "context": ""
+    },
+    {
+      "tag":"culture",
+      "patterns": [
+        "tell me about the culture of ladakh",
+        "ladakhi culture",
+        "culture",
+        "culture of ladakh"
+      ],
+      "responses": [
+        "Ladakh's culture is heavily influenced by Tibetan Buddhism, with monasteries and stupas serving as significant religious and cultural centers.",
+        "Ladakh hosts vibrant festivals throughout the year, such as Hemis Festival, Dosmoche Festival, and Losar (Tibetan New Year). These festivals showcase traditional music, dance, masked performances, and religious rituals.",
+        "Ladakhis have distinct traditional attire. Men wear Gonchas (loose robes) and topi hats, while women wear colorful, embroidered dresses called Gonchas and accessories like perak (headgear) and silver jewelry.",
+        "Ladakh has a rich tradition of monastic education. Monasteries, such as Hemis, Thiksey, and Diskit, serve as centers of learning for Buddhist philosophy, arts, and scriptures.",
+        "Ladakh is renowned for its unique architecture, characterized by monasteries, palaces, and mud-brick houses. The Leh Palace, Shey Palace, and Alchi Monastery showcase the region's architectural heritage.",
+        "Ladakhis are known for their warm hospitality and strong cultural values. Respect for elders, communal harmony, and compassion are deeply ingrained in their social fabric."
+      ],
+      "context": ""
+    },
+    {
+      "tag": "dance",
+      "patterns": [
+        "dance",
+        "folk-dance",
+        "folkdance",
+        "dance forms",
+        "dance",
+        "ladakhi dance",
+        "ladakh dance",
+        "ladakh dance"
+      ],
+      "responses": [
+        "Mask dances are an integral part of Ladakhi culture and are performed during religious festivals. Monks and performers don elaborate costumes and masks representing deities and demons, enacting stories from Buddhist scriptures. The Cham dance of Hemis Monastery is particularly renowned.",
+        "Jabro is a lively dance performed by both men and women. It involves energetic movements, footwork, and synchronized group formations. Jabro is often performed during festive occasions and social gatherings.",
+        "Shondol is a traditional dance form of Ladakh. It is performed during weddings, harvest festivals, and other joyous occasions. Men and women dance in pairs, showcasing grace and coordination.",
+        " Mathon is a folk dance performed by women during the sowing season. It involves rhythmic steps and hand movements while singing traditional songs related to agriculture and nature."
+      ],
+      "context": ""
+
+    },
+    {
+      "tag": "music",
+      "patterns": [
+        "music",
+        "local songs",
+        "folk-songs",
+        "folksongs",
+        "folk songs",
+        "songs",
+        "song",
+        "about ladakhi music",
+        "ladakhi music",
+        "ladakhi music",
+        "ladakhi song"
+      ],
+      "responses": [
+        "Ladakh has a variety of traditional musical instruments. The Surna (oboe), Piwang (two-stringed instrument), Daman (drum), and Yangchen (a type of dulcimer) are commonly used. These instruments produce unique and melodious sounds that accompany dances and religious ceremonies.",
+        "Ladakhi folk songs are an essential part of the region's musical heritage. These songs reflect daily life, love, spirituality, and the beauty of nature. The lyrics are usually sung in the Ladakhi language and accompanied by traditional instruments.",
+        "Ladakh's strong Buddhist influence is reflected in its chanting traditions. Monks and nuns recite sacred Buddhist scriptures and prayers in monasteries and during religious ceremonies. The deep and resonant chanting creates a serene and meditative atmosphere.",
+        "Ladakhi weddings are marked by traditional songs and music. These songs celebrate the union of the bride and groom, expressing joy, blessings, and well-wishes.The dance and music of Ladakh not only serve as a means of entertainment but also as a medium to convey cultural stories, traditions, and spiritual expressions."
       ],
       "context": ""
     }
